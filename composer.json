@@ -2,6 +2,7 @@
   "name": "xiaoniuge/think-dotenv",
   "description": "ThinkPHP3.2集成php-dotenv",
   "license": "Apache-2.0",
+  "type": "library",
   "authors": [
     {
       "name": "朱亚杰",
@@ -12,16 +13,10 @@
     "josegonzalez/dotenv": "^1.0",
     "snowair/think-hookagent": ">=0.4"
   },
-  "extra": {
-    "branch-alias": {
-        "dev-master": "1.0-dev"
-    }
-  },
   "autoload": {
     "psr-4": {
-      "Snowair\\Dotenv\\": "."
+      "Snowair\\Dotenv\\": "./"
     },
     "files": ["DotEnv.php"]
-  },
-  "minimum-stability": "dev"
+  }
 }
